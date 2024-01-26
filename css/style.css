@@ -19,7 +19,7 @@ clearfix {
 }
 .txt {
   float: right;
-  padding_top: 50px;
+  padding-top: 50px;
   padding-right: 50px;
 }
 .clearfix{
@@ -87,17 +87,22 @@ background-color: #2dd6c1;
 .you{
     color:#496bf2;
 }
-.Testimonial-circle{
+.testimonial-circle{
     height:20px;
     width:20px;
-    border:2px solid #496bf2;
+  
     border-radius:50%;
-    display:inline-block;
+    display: inline-block;
     margin:6px;
 }
-.points Testimonials-circle{
-  background-color:#496bf2;
+.blue{
+  background-color: #496bf2;
 }
+.green{
+  background-color: #2dd6c1;
+}
+
+
 .contact{
   background-image: url(../images/doc.png);
   background-repeat: no-repeat;
@@ -117,7 +122,27 @@ background-color: #2dd6c1;
 }
 .sub{
   padding: 50px;
-  margin: 30px;
+  margin: 20px;
   background-color: #496bf2;
   color:white;
+}
+.social{
+  margin:20px;
+  padding-right: 20px;
+}
+.mercy li{
+  list-style-type:none;
+  
+}
+.make li{
+  list-style-type:none;
+}
+.first li{
+  list-style-type:none;
+}
+.mercy{
+  float:left;
+}
+.make{
+  float:right;
 }
