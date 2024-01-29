@@ -22,6 +22,9 @@ clearfix {
   padding-top: 50px;
   padding-right: 50px;
 }
+.txt h1{
+  color:#496bf2
+}
 .clearfix{
     clear:both;
 }
@@ -47,6 +50,9 @@ background-color: #2dd6c1;
     padding:30px;
     width:17%
     
+}
+.services h2{
+  color:blue;
 }
 .clearfix{
     clear:both;
@@ -108,20 +114,23 @@ background-color: #2dd6c1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 120vh;
+  height: 90vh;
   width:100vw;
   position: relative;
 }
 .life{
-  padding: 50px;
+  padding-right: 500px;
+  padding-bottom: 50px;
   margin: 50px;
 }
 .mss{
-  padding: 100px;
+  padding-right: 500px;
+  padding-bottom: 100px;
   margin: 50px;
 }
 .sub{
-  padding: 50px;
+  padding-right: 100px;
+  padding-bottom: 20px;
   margin: 20px;
   background-color: #496bf2;
   color:white;
@@ -145,4 +154,10 @@ background-color: #2dd6c1;
 }
 .make{
   float:right;
+}
+.make{
+  width: 25%;
+}
+.icons{
+  display: flex;
 }
