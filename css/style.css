@@ -10,12 +10,12 @@ clearfix {
   cursor: pointer;
 }
 .bg-image {
-  background-image: url(../images/bg.png);
+  background-image: url(../images/bg.png );
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 105vw;
 }
 .txt {
   float: right;
@@ -23,7 +23,7 @@ clearfix {
   padding-right: 50px;
 }
 .txt h1{
-  color:#496bf2
+  color:#496bf2;
 }
 .clearfix{
     clear:both;
