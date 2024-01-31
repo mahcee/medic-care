@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap'):
 
-/* @import url() */
-
-
-.hero {
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.heros{
   float: right;
 }
 clearfix {
@@ -55,14 +59,14 @@ background-color: #2dd6c1;
   color: white;
 }
 .services{
-    float:left;
+float:left;
     box-shadow:0 0 5px;
     margin:25px;
     padding:30px;
     width:25%
     
 }
-/* .services h2{ */
+.services h2{
   color:blue;
 }
 .clearfix{
@@ -171,4 +175,10 @@ background-color: #2dd6c1;
 }
 .icons{
   display: flex;
+}
+p{
+  margin:20px;
+  font-size:100%;
+  line-height:100%;
+  align-items:center;
 }
